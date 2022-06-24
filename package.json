@@ -1,0 +1,21 @@
+{
+  "name": "create-express-app",
+  "version": "1.0.0",
+  "description": "Creates boilerplate express app template with some configuration.",
+  "main": "create-express-app.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alperen BAYRAMOĞLU",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.3.0",
+    "shelljs": "^0.8.5"
+  },
+  "bin": {
+    "create-express-app": "create-express-app.mjs"
+  }
+}
